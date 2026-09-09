@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# 本地配置（不含密钥/路径，仍忽略以避免覆盖）
+**/multi_ai/config.json
+
+# 学术论文与大数据（版权+体积，不进仓库；见 docs/安装与下载指南.md §4）
+*.pdf
+**/Outstanding Thesis/
+**/references/papers/
+
+# 依赖 / 日志 / OS
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

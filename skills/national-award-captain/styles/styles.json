@@ -1,0 +1,15 @@
+﻿{
+  "default": "nature-journal",
+  "styles": [
+    {"name": "nature-journal", "family": "nature", "tool": "nature-figure", "tags": ["期刊", "Nature", "多面板", "sci"], "palette": ["#E64B35", "#4DBBD5", "#00A087", "#3C5488", "#F39B7F", "#8491B4", "#91D1C2"], "font": "DejaVu Sans", "dpi": 300, "despine": true, "grid": false, "note": "Nature 出版集团(NPG)官方配色；多面板、矢量、色盲友好"},
+    {"name": "science-aaas", "family": "aaas", "tool": "nature-figure", "tags": ["Science", "期刊", "科研"], "palette": ["#3B4992", "#EE0000", "#008B45", "#631879", "#008280", "#BB0021", "#5F559B"], "font": "DejaVu Sans", "dpi": 300, "despine": true, "grid": false, "note": "Science(AAAS)官方配色；高对比、蓝红主轴"},
+    {"name": "nejm-clinical", "family": "nejm", "tool": "nature-figure", "tags": ["NEJM", "医学", "期刊"], "palette": ["#BC3C29", "#0072B5", "#E18727", "#20854E", "#7876B1", "#6F99AD", "#FFDC91"], "font": "DejaVu Sans", "dpi": 300, "despine": true, "grid": true, "note": "NEJM 官方配色；医学/临床风格"},
+    {"name": "lancet", "family": "lancet", "tool": "nature-figure", "tags": ["Lancet", "医学", "期刊"], "palette": ["#00468B", "#ED0000", "#42B540", "#0099B4", "#925E9F", "#FDAF91", "#29E2E4"], "font": "DejaVu Sans", "dpi": 300, "despine": true, "grid": true, "note": "Lancet 官方配色；蓝红主轴、偏冷"},
+    {"name": "jco", "family": "jco", "tool": "nature-figure", "tags": ["JCO", "肿瘤", "期刊"], "palette": ["#0073C2", "#EFC000", "#868686", "#CD534C", "#7AA6DC", "#003C67", "#8F7700"], "font": "DejaVu Sans", "dpi": 300, "despine": true, "grid": false, "note": "JCO 官方配色；蓝黄灰主轴"},
+    {"name": "minimal-bw", "family": "gs", "tool": "nature-figure", "tags": ["极简", "黑白", "审稿"], "palette": ["#000000", "#333333", "#666666", "#999999", "#CCCCCC"], "font": "DejaVu Serif", "dpi": 300, "despine": true, "grid": false, "note": "灰度/黑白；审稿向，打印友好"},
+    {"name": "infographic", "family": "display", "tool": "matplotlib", "tags": ["信息图", "答辩", "海报"], "palette": ["#00A6FF", "#FFB900", "#E81123", "#107C10", "#9B59B6"], "font": "Arial", "dpi": 200, "despine": false, "grid": true, "note": "信息图表风：高对比、扁平、大字号"},
+    {"name": "gradient-smooth", "family": "display", "tool": "matplotlib", "tags": ["渐变", "高级感"], "palette": ["#6A5ACD", "#8EC5FC", "#E0C3FC", "#FAD0C4", "#A1C4FD"], "font": "DejaVu Sans", "dpi": 300, "despine": true, "grid": true, "note": "渐变高级感：柔和过渡、浅渐变填充"},
+    {"name": "vibrant-poster", "family": "display", "tool": "figura", "tags": ["海报", "汇报", "答辩"], "palette": ["#FF6B6B", "#4ECDC4", "#FFE66D", "#292F36", "#F7FFF7"], "font": "Impact", "dpi": 150, "despine": false, "grid": true, "note": "海报展示级：大字号、亮色、强对比"},
+    {"name": "dark-paper", "family": "display", "tool": "matplotlib", "tags": ["暗色", "科技", "夜间"], "palette": ["#64DFDF", "#F72585", "#BB86FC", "#4CC9F0", "#80FFDB"], "font": "DejaVu Sans", "dpi": 200, "despine": true, "grid": true, "note": "暗色科技风：深底、霓虹点缀"}
+  ]
+}

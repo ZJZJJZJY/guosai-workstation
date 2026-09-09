@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "source_commit_or_snapshot": "",
+  "items": [
+    {
+      "qi_id": "Q1",
+      "result_file": "results/q1_final.csv",
+      "validation_report": "reports/q1_validation.md",
+      "script": "code/q1_solution.py",
+      "status": "accepted",
+      "reviewed_by": ["deepseek", "claude", "gpt"],
+      "reproduce_command": "python code/q1_solution.py"
+    }
+  ]
+}
